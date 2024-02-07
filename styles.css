@@ -1,0 +1,232 @@
+/* Mobile-first styling, startng with 320px*/
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+html {
+    font-size: 10px;
+}
+
+body {
+    padding: 5vw;
+}
+
+h1 {
+    font-weight: 550;
+    font-size: 3.7rem;
+    text-align: center;
+}
+
+h1 em {
+    font-weight: 900;
+    font-family: 
+}
+
+h1 span {
+    font-size: 2.5rem;
+    vertical-align: top;
+}
+
+.opening-quote {
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    margin: 2rem 0;
+}
+
+.opening-quote span {
+    display: block;
+    text-align: right;
+}
+
+nav {
+    font-size: 2.5rem;
+    margin-left: 5vw;
+}
+
+menu, menu>li>a {
+    list-style: none;
+    text-decoration: none;
+}
+
+menu .menu-list-starter {
+    display: inline-block;
+    width: 9%;
+}
+
+.sub-menu {
+    padding-inline-start: 10vw;;
+}
+
+.sub-menu .menu-list-starter {
+    width: 9vw;
+}
+
+header>p {
+    font-size: 1rem;
+    font-style: italic;
+    margin-top: 2rem;
+    margin-left: 5vw;
+}
+
+section {
+    font-size: 1.6rem;
+}
+
+.rainbow-hearts-line {
+    display: flex;  
+    overflow: hidden;
+    margin: 2rem 0;
+}
+
+.red {
+    color: red;
+}
+
+.orange {
+    color: orange;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.violet {
+    color: purple
+}
+
+.reversed {
+    transform: scaleX(-1);
+}
+
+hr {
+    margin: 5vh;
+}
+
+section:not(.welcome){
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 2.5vh;
+}
+
+h3 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2.5vh 2.5vh 0 2.5vh;
+}
+
+section p {
+    padding: 2.5vh 2.5vh 0 2.5vh;
+}
+
+figure p {
+    padding: 0;
+}
+
+figure img {
+    margin-bottom: 2vh;
+}
+
+.plant-hero {
+    background-color: rgb(179, 206, 145);
+}
+
+.plant-hero p {
+    font-size: 1.9rem;
+    font-weight: 
+}
+
+.plant-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2.5rem;
+    line-height: 2;
+}
+
+.plant-links a {
+    font-size: 3rem
+}
+
+.water-lovers {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(178, 210, 210);
+
+}
+
+figure {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 5vw;
+    margin: 2.5vw 0;
+}
+
+figure img {
+    width: 60vw;
+    max-width: 300px;
+}
+
+.two-pics-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.two-pics-wrapper img {
+    max-width: 40vw;
+}
+
+.three-pics-wrapper {
+    width: 100%;
+    display: flex; 
+    justify-content: space-evenly;
+}
+
+.three-pics-wrapper img {
+    max-width: 25vw;
+}
+
+.water-ascetics {
+    background-color: antiquewhite;
+}
+
+.percy-steward {
+    background-color: coral;
+}
+
+.percy-collage {
+    flex-direction: row;
+    padding: 0;
+}
+
+.percy-collage img {
+    width: 50%;
+    padding: 0;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+
