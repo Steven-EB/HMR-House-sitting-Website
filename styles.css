@@ -6,19 +6,62 @@ html {
     font-size: 10px;
 }
 
-body {
+header {
+    background-color: rgb(242, 59, 153);
+    padding: 2vw;
+}
+
+.five-vw-padding {
     padding: 5vw;
 }
 
 h1 {
-    font-weight: 550;
+    font-family: "Protest Revolution";
+    font-weight: 600;
     font-size: 3.7rem;
     text-align: center;
+    margin: 10vw 3vw;
+    background-color: rgba(244, 244, 87, .8);
+    color: rgb(155, 49, 11);
+    box-shadow:0 -5px 20px 10px rgb(111, 245, 22); 
+    border-radius: 5%;
+}
+
+header img {
+    border:  rgb(88, 19, 19) dashed;
+    border-width: 2vw 5vw;
+    border-radius: 15% 40%;
+    padding: 2vw;
+}
+
+h2 {
+    font-family: "Protest Revolution";
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+h3 {
+    font-family: "Protest Revolution";
+    font-size: 3rem;
+    text-align: center;
+    padding: 5vw 0;
+}
+
+h4 {
+    font-family: "Protest Revolution";
+}
+
+p {
+    font-family: Dosis;
+    padding-bottom: 2vh;
+}
+
+hr {
+    width: 12vw;
 }
 
 h1 em {
     font-weight: 900;
-    font-family: 
 }
 
 h1 span {
@@ -27,11 +70,18 @@ h1 span {
 }
 
 .opening-quote {
+    font-family: Dosis;
     font-size: 1.4rem;
     display: flex;
     justify-content: center;
     font-style: italic;
-    margin: 2rem 0;
+    margin-top: 15vw;
+    margin-bottom: 10vw;
+    background-color: rgba(154, 226, 242, 1);
+    color: rgb(18, 18, 159);
+    padding: 5vw 0;
+    border-radius: 20%;
+    box-shadow: 0 0 20px 20px rgba(154, 226, 242, 1);
 }
 
 .opening-quote span {
@@ -39,14 +89,36 @@ h1 span {
     text-align: right;
 }
 
+header h3 {
+    margin: 13vw 0 0 0;
+    color: rgb(54, 49, 48);
+    font-weight: 900;
+}
+
+header hr {
+    width: 90%;
+    margin: 0 auto;
+}
+
 nav {
-    font-size: 2.5rem;
-    margin-left: 5vw;
+    font-family: "Protest Revolution";
+    font-size: 2.3rem;
+    padding: 5vw 0 5vw 15vw;
+    margin-top: 5vw;
+    background-color: rgba(101, 67, 67, .6);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(245, 191, 237);
+}
+
+a:hover {
+    color: rgb(74, 8, 74);
 }
 
 menu, menu>li>a {
     list-style: none;
-    text-decoration: none;
 }
 
 menu .menu-list-starter {
@@ -62,11 +134,12 @@ menu .menu-list-starter {
     width: 9vw;
 }
 
-header>p {
-    font-size: 1rem;
+header>aside {
+    font-size: 1.5rem;
     font-style: italic;
-    margin-top: 2rem;
-    margin-left: 5vw;
+    font-weight: 600;
+    margin: 3vh 0 0 3vh;
+    color: rgb(245, 191, 237)
 }
 
 section {
@@ -76,7 +149,7 @@ section {
 .rainbow-hearts-line {
     display: flex;  
     overflow: hidden;
-    margin: 2rem 0;
+    margin: 3vh 0;
 }
 
 .red {
@@ -107,8 +180,17 @@ section {
     transform: scaleX(-1);
 }
 
-hr {
-    margin: 5vh;
+.welcome {
+    padding: 5vw 5vw 0;
+    background-color: pink;
+}
+
+.welcome h2 {
+    color: rgb(54, 49, 48);
+}
+
+.welcome em {
+    font-weight: 800;
 }
 
 section:not(.welcome){
@@ -116,70 +198,84 @@ section:not(.welcome){
     flex-direction: column;
 }
 
-h2 {
-    font-size: 3.5rem;
-    text-align: center;
-    margin-top: 2.5vh;
+.return-to-table-of-contents {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Protest Revolution";
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: 600;
+    padding: 2vh 1rem;
+    background-color: rgb(242, 59, 153);
 }
 
-h3 {
-    font-size: 3rem;
-    text-align: center;
-    padding: 2.5vh 2.5vh 0 2.5vh;
-}
-
-section p {
-    padding: 2.5vh 2.5vh 0 2.5vh;
-}
-
-figure p {
-    padding: 0;
-}
-
-figure img {
-    margin-bottom: 2vh;
+.return-to-table-of-contents text {
+    padding: 0 2vw;
 }
 
 .plant-hero {
     background-color: rgb(179, 206, 145);
+    padding: 5vw;
 }
 
-.plant-hero p {
-    font-size: 1.9rem;
-    font-weight: 
+.plant-hero h2 {
+    color: rgb(8, 72, 10);
+    padding-bottom: 5vw;
+}
+
+.plant-hero p, .plant-hero span {
+    font-size: 1.7rem;
 }
 
 .plant-links {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 2.5rem;
     line-height: 2;
+    font-family: "Protest Revolution";
+    padding-bottom: 5vw;
 }
 
 .plant-links a {
     font-size: 3rem
 }
 
+.water-lovers-heading {
+    color: rgb(38, 3, 132);
+}
+
+.water-ascetics-heading {
+    color: rgb(87, 40, 3);
+}
+
 .water-lovers {
     display: flex;
     flex-direction: column;
     background-color: rgb(178, 210, 210);
-
 }
 
 figure {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 5vw;
-    margin: 2.5vw 0;
+    background-color: rgba(55, 15, 15, .1);
+    margin: 5vw 0;
 }
 
 figure img {
     width: 60vw;
     max-width: 300px;
+    margin: 5vw 0;
 }
+
+figcaption {
+    font-family: Dosis;
+    padding: 0 5vw 5vw 5vw;
+}
+
 
 .two-pics-wrapper {
     width: 100%;
@@ -209,14 +305,16 @@ figure img {
     background-color: coral;
 }
 
+.percy-steward figure {
+    background-color: rgba(66, 22, 22, .5);
+}
+
 .percy-collage {
     flex-direction: row;
-    padding: 0;
 }
 
 .percy-collage img {
     width: 50%;
-    padding: 0;
 }
 
 
