@@ -257,6 +257,10 @@ section:not(.welcome){
     background-color: rgb(178, 210, 210);
 }
 
+.water-lovers p {
+    padding: 0 5vw;
+}
+
 figure {
     display: flex;
     justify-content: center;
@@ -298,11 +302,18 @@ figcaption {
 }
 
 .water-ascetics {
-    background-color: antiquewhite;
+    background-color: rgb(243, 211, 169);
 }
 
 .percy-steward {
-    background-color: coral;
+    background: repeating-linear-gradient(
+        90deg, 
+        rgb(239, 145, 111), 
+        rgb(217, 173, 79) 15%, 
+        rgb(230, 227, 227) 30%,
+        rgb(239, 145, 111) 50%
+        );
+    font-weight: 600;
 }
 
 .percy-steward figure {
@@ -317,6 +328,13 @@ figcaption {
     width: 50%;
 }
 
+.tips-and-tricks em {
+    font-weight: 900;
+}
+
+.all-caps {
+    text-transform: uppercase;
+}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { ... }
