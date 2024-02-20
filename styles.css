@@ -64,6 +64,7 @@ p {
 
 hr {
     width: 12vw;
+    max-width: 80px;
 }
 
 h1 em {
@@ -285,7 +286,6 @@ figcaption {
     font-family: Dosis;
     padding: 0 5vw 5vw 5vw;
 }
-
 
 .two-pics-wrapper {
     width: 100%;
