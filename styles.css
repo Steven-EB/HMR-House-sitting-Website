@@ -276,13 +276,14 @@ hr {
 figure {
     display: flex;
     justify-content: center;
+    overflow: auto;
     flex-wrap: wrap;
     background-color: rgba(55, 15, 15, .1);
     margin: 5% 0;
 }
 
 figure img {
-    width: 100%;
+    max-width: 100%;
     margin: 10% 0;
     aspect-ratio: 4/5;
 }
@@ -295,13 +296,22 @@ figcaption {
 .two-pics-wrapper {
     width: 100%;
     display: flex;
+    overflow: auto;
     justify-content: center;
+}
+
+.two-pics-wrapper img {
+    width: 50%;
 }
 
 .three-pics-wrapper {
     width: 100%;
     display: flex; 
     justify-content: center;
+}
+
+.three-pics-wrapper img {
+    width: 33.33%;
 }
 
 .water-ascetics {
@@ -321,10 +331,6 @@ figcaption {
 
 .percy-steward figure {
     background-color: rgba(66, 22, 22, .5);
-}
-
-.percy-collage {
-    flex-direction: row;
 }
 
 .percy-collage img {
@@ -364,11 +370,3 @@ figcaption {
     text-transform: uppercase;
 }
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) { ... }
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { ... }
-
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { ... }
