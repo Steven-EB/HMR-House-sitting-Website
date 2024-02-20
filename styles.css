@@ -7,18 +7,18 @@ html {
 }
 
 body {
-    max-width: 420px;
+    max-width: 500px;
     margin: 0 auto;
     background-color: pink;
 }
 
 header {
     background-color: rgb(242, 59, 153);
-    padding: 2vw;
+    padding: 1%;
 }
 
 .five-vw-padding {
-    padding: 5vw;
+    padding: 5%;
 }
 
 h1 {
@@ -26,7 +26,7 @@ h1 {
     font-weight: 600;
     font-size: 3.7rem;
     text-align: center;
-    margin: 10vw 3vw;
+    margin: 10%;
     background-color: rgba(244, 244, 87, .8);
     color: rgb(155, 49, 11);
     box-shadow:0 -5px 20px 10px rgb(111, 245, 22); 
@@ -35,9 +35,9 @@ h1 {
 
 header img {
     border:  rgb(88, 19, 19) dashed;
-    border-width: 2vw 5vw;
+    border-width: 1em 2em;
     border-radius: 15% 40%;
-    padding: 2vw;
+    padding: 2%;
 }
 
 h2 {
@@ -50,7 +50,7 @@ h3 {
     font-family: "Protest Revolution";
     font-size: 3rem;
     text-align: center;
-    padding: 5vw 0;
+    padding: 5% 0;
 }
 
 h4 {
@@ -59,12 +59,7 @@ h4 {
 
 p {
     font-family: Dosis;
-    padding-bottom: 2vh;
-}
-
-hr {
-    width: 12vw;
-    max-width: 80px;
+    padding-bottom: 5%;
 }
 
 h1 em {
@@ -82,11 +77,10 @@ h1 span {
     display: flex;
     justify-content: center;
     font-style: italic;
-    margin-top: 15vw;
-    margin-bottom: 10vw;
+    margin-top: 15%;
     background-color: rgba(154, 226, 242, 1);
     color: rgb(18, 18, 159);
-    padding: 5vw 0;
+    padding: 5% 0;
     border-radius: 20%;
     box-shadow: 0 0 20px 20px rgba(154, 226, 242, 1);
 }
@@ -97,7 +91,7 @@ h1 span {
 }
 
 header h3 {
-    margin: 13vw 0 0 0;
+    margin: 10% 0 0 0;
     color: rgb(54, 49, 48);
     font-weight: 900;
 }
@@ -108,10 +102,12 @@ header hr {
 }
 
 nav {
+    width: 90%;
+    margin: 0 auto;
     font-family: "Protest Revolution";
     font-size: 2.3rem;
-    padding: 5vw 0 5vw 15vw;
-    margin-top: 5vw;
+    padding: 5% 0 5% 15%;
+    margin-top: 5%;
     background-color: rgba(101, 67, 67, .6);
 }
 
@@ -134,18 +130,18 @@ menu .menu-list-starter {
 }
 
 .sub-menu {
-    padding-inline-start: 10vw;;
+    padding-inline-start: 11%;
 }
 
 .sub-menu .menu-list-starter {
-    width: 9vw;
+    width: 10%;
 }
 
 header>aside {
     font-size: 1.5rem;
     font-style: italic;
     font-weight: 600;
-    margin: 3vh 0 0 3vh;
+    margin: 5% 0 0 5%;
     color: rgb(245, 191, 237)
 }
 
@@ -156,7 +152,7 @@ section {
 .rainbow-hearts-line {
     display: flex;  
     overflow: hidden;
-    margin: 3vh 0;
+    margin: 5% 0;
 }
 
 .red {
@@ -188,8 +184,8 @@ section {
 }
 
 .welcome {
-    padding: 5vw 5vw 0;
-    background-color: pink;
+    padding: 5% 5% 0;
+    background-color: rgb(237, 150, 73);
 }
 
 .welcome h2 {
@@ -210,18 +206,23 @@ section:not(.welcome){
     bottom: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
     font-family: "Protest Revolution";
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-style: italic;
     font-weight: 600;
-    padding: 2vh 1rem;
+    padding: 5%;
     background-color: rgb(242, 59, 153);
 }
 
 .return-to-table-of-contents text {
-    padding: 0 2vw;
+    padding: 0 10px;
 }
+
+hr {
+    width: 12%;
+}
+
 
 .plant-hero {
     background-color: rgb(179, 206, 145);
@@ -230,7 +231,7 @@ section:not(.welcome){
 
 .plant-hero h2 {
     color: rgb(8, 72, 10);
-    padding-bottom: 5vw;
+    padding-bottom: 5%;
 }
 
 .plant-hero p, .plant-hero span {
@@ -243,7 +244,7 @@ section:not(.welcome){
     align-items: center;
     line-height: 2;
     font-family: "Protest Revolution";
-    padding-bottom: 5vw;
+    padding-bottom: 5%;
 }
 
 .plant-links a {
@@ -265,7 +266,7 @@ section:not(.welcome){
 }
 
 .water-lovers p {
-    padding: 0 5vw;
+    padding: 0 5%;
 }
 
 figure {
@@ -273,18 +274,18 @@ figure {
     justify-content: center;
     flex-wrap: wrap;
     background-color: rgba(55, 15, 15, .1);
-    margin: 5vw 0;
+    margin: 5% 0;
 }
 
 figure img {
     width: 100%;
-    margin: 5vw 0;
+    margin: 10% 0;
     aspect-ratio: 4/5;
 }
 
 figcaption {
     font-family: Dosis;
-    padding: 0 5vw 5vw 5vw;
+    padding: 0 5% 5% 5%;
 }
 
 .two-pics-wrapper {
@@ -335,7 +336,7 @@ figcaption {
 }
 
 .tips-and-tricks article {
-    padding: 5vw;
+    padding: 5%;
 }
 
 .tips-and-tricks em {
@@ -343,7 +344,7 @@ figcaption {
 }
 
 .tips-and-tricks h4 {
-    margin-bottom: 2vw;
+    margin-bottom: 5%;
 }
 
 .wifi-internet {
@@ -367,5 +368,3 @@ figcaption {
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { ... }
-
-
