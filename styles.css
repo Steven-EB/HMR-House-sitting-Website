@@ -276,9 +276,9 @@ figure {
 }
 
 figure img {
-    width: 60vw;
-    max-width: 300px;
+    width: 100%;
     margin: 5vw 0;
+    aspect-ratio: 4/5;
 }
 
 figcaption {
@@ -290,21 +290,13 @@ figcaption {
 .two-pics-wrapper {
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
-}
-
-.two-pics-wrapper img {
-    max-width: 40vw;
+    justify-content: center;
 }
 
 .three-pics-wrapper {
     width: 100%;
     display: flex; 
-    justify-content: space-evenly;
-}
-
-.three-pics-wrapper img {
-    max-width: 25vw;
+    justify-content: center;
 }
 
 .water-ascetics {
