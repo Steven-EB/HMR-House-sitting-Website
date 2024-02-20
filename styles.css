@@ -21,6 +21,10 @@ header {
     padding: 5%;
 }
 
+.five-over-four img {
+    aspect-ratio: 5/4;
+}
+
 h1 {
     font-family: "Protest Revolution";
     font-weight: 600;
@@ -50,7 +54,7 @@ h3 {
     font-family: "Protest Revolution";
     font-size: 3rem;
     text-align: center;
-    padding: 5% 0;
+    padding: 10% 0 5%;
 }
 
 h4 {
@@ -74,10 +78,11 @@ h1 span {
 .opening-quote {
     font-family: Dosis;
     font-size: 1.4rem;
+    width: 90%;
     display: flex;
     justify-content: center;
     font-style: italic;
-    margin-top: 15%;
+    margin: 15% auto;
     background-color: rgba(154, 226, 242, 1);
     color: rgb(18, 18, 159);
     padding: 5% 0;
@@ -91,7 +96,6 @@ h1 span {
 }
 
 header h3 {
-    margin: 10% 0 0 0;
     color: rgb(54, 49, 48);
     font-weight: 900;
 }
@@ -134,14 +138,14 @@ menu .menu-list-starter {
 }
 
 .sub-menu .menu-list-starter {
-    width: 10%;
+    width: 13%;
 }
 
 header>aside {
     font-size: 1.5rem;
     font-style: italic;
     font-weight: 600;
-    margin: 5% 0 0 5%;
+    margin: 20% 5% 5%;
     color: rgb(245, 191, 237)
 }
 
