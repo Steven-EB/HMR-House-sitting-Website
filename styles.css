@@ -98,6 +98,7 @@ h1 span {
 header h3 {
     color: rgb(54, 49, 48);
     font-weight: 900;
+    padding-bottom: 0;
 }
 
 header hr {
@@ -357,14 +358,74 @@ figcaption {
     margin-bottom: 5%;
 }
 
-#wifi-internet {
-    background-color: aquamarine;
+#ashes {
+    background-color: beige;
+    margin-top: 5%;
+}
+
+#carpets {
+    background-color: rgb(188, 249, 228);
+}
+
+#compost{
+    background-color: rgb(217, 243, 176);
+}
+
+#dishsoap {
+    background-color: rgb(212, 203, 246);
+}
+
+#fan {
+    background-color: rgb(244, 195, 196);
+}
+
+#food {
+    background-color: rgb(253, 243, 165);
+}
+
+#kefir-kombucha {
+    background-color: beige;
+}
+
+#keys {
+    background-color: rgb(188, 249, 228);
+}
+
+#kindling-tinder {
+    background-color: rgb(217, 243, 176);
+}
+
+#laundry {
+    background-color: rgb(212, 203, 246);
 }
 
 #mouse-traps {
-    background-color: rgb(248, 235, 114);
+    background-color: rgb(244, 195, 196);
 }
 
+#plant-lights {
+    background-color: rgb(253, 243, 165);
+}
+
+#power-outage {
+    background-color: beige;
+}
+
+#sheets {
+    background-color: rgb(188, 249, 228);
+}
+
+#supplementary-heating {
+    background-color: rgb(217, 243, 176);
+}
+
+#tools {
+    background-color: rgb(212, 203, 246);
+}
+
+#wifi-internet {
+    background-color: rgb(244, 195, 196);
+}
 
 .all-caps {
     text-transform: uppercase;
